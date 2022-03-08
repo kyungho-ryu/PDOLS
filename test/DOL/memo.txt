@@ -1,0 +1,57 @@
+weight = 1, 0
+
+action size = 4
+reward size = 2
+-> q = 4X2
+
+reward = 2
+
+value :
+    w = {w1,w2}
+    q = {q1, q2, q3, q4,
+         q5, q6, q7, q8}
+    max_a = 4
+    value = {q4,
+             q8}
+
+env = return reward(2)
+
+p1, p2	{
+  1 : 0
+  2 : 0.58881384134293
+}
+{
+  1 : 1
+  2 : -0.093893840909004
+}
+
+VToPoints[V_PI] = {p1, p2, V_PI[1]}
+table.insert(S, V_PI)
+
+
+
+
+
+
+
+p1, p2 :  [0, tensor(-1.6248)] [1, tensor(1.6244)]
+W :  deque([[[0, inf], tensor([-1.2491,  0.3655])], [[1, inf], tensor([-1.8199,  1.8492])], [[tensor(0.2778), tensor(0.4122)], tensor([-1.5659,  1.5083])], [[tensor(0.2170), tensor(0.1558)], tensor([-1.2938,  0.3676])], [[tensor(0.4270), tensor(0.0914)], tensor([-1.7183,  1.8670])], [[tensor(0.2982), tensor(0.0372)], tensor([-1.6248,  1.6244])]])
+isIncluded S : deque([tensor([-1.2491,  0.3655]), tensor([-1.5659,  1.5083]), tensor([-1.7183,  1.8670])]), V : tensor([-1.6248,  1.6244])
+hasImprovement : tensor([-1.6248,  1.6244])
+vi : [[0, tensor(-1.2491)], [tensor(0.2170), tensor(-0.8987)], tensor(-1.2491)] from S
+vi : [[tensor(0.2170), tensor(-0.8987)], [tensor(0.2982), tensor(-0.6491)], tensor(-1.5659)] from S
+vi : [[tensor(0.2982), tensor(-0.6491)], [1, tensor(1.8670)], tensor(-1.7183)] from S
+current Height : -0.6491003632545471
+x, y : 0.29821541905403137, -0.655814528465271
+cornerW : [0, tensor(-1.2491)]/[tensor(0.2170), tensor(-0.8987)]
+cornerW : [tensor(0.4270), tensor(-0.2532)]/[1, tensor(1.8492)]
+cornerW : [tensor(0.2170), tensor(-0.8987)]/[tensor(0.2982), tensor(-0.6491)]
+cornerW : [tensor(0.2982), tensor(-0.6491)]/[1, tensor(1.8670)]
+S :deque([tensor([-1.2491,  0.3655]), tensor([-1.5659,  1.5083]), tensor([-1.7183,  1.8670])])
+W :deque([[[0, inf], tensor([-1.2491,  0.3655])], [[1, inf], tensor([-1.8199,  1.8492])], [[tensor(0.2778), tensor(0.4122)], tensor([-1.5659,  1.5083])], [[tensor(0.2170), tensor(0.1558)], tensor([-1.2938,  0.3676])], [[tensor(0.4270), tensor(0.0914)], tensor([-1.7183,  1.8670])], [[tensor(0.2982), tensor(0.0372)], tensor([-1.6248,  1.6244])]])
+Q :deque([])
+VToPoints :{tensor([-1.2491,  0.3655]): [[0, tensor(-1.2491)], [tensor(0.2170), tensor(-0.8987)], tensor(-1.2491)], tensor([-1.8199,  1.8492]): [[tensor(0.4270), tensor(-0.2532)], [1, tensor(1.8492)], tensor(-1.8199)], tensor([-1.5659,  1.5083]): [[tensor(0.2170), tensor(-0.8987)], [tensor(0.2982), tensor(-0.6491)], tensor(-1.5659)], tensor([-1.7183,  1.8670]): [[tensor(0.2982), tensor(-0.6491)], [1, tensor(1.8670)], tensor(-1.7183)]}
+rejectedWeights : deque([])
+
+
+
