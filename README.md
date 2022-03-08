@@ -38,4 +38,4 @@ Paper : https://www.mdpi.com/1424-8220/21/23/7925
         <img src="https://github.com/kyungho-ryu/PDOLS/files/8206578/fig_PDOLS.pdf">
 
     -  Reward weight vector exploration.
-        <img src="https://github.com/kyungho-ryu/PDOLS/files/8206605/test.pdf">
+        <img src="https://user-images.githubusercontent.com/73271891/157249065-d3a71fe5-1c01-40be-99f3-d08c5e072faa.png">
