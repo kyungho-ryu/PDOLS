@@ -35,7 +35,7 @@ Paper : https://www.mdpi.com/1424-8220/21/23/7925
 
 - Performance comparison of proposed algorithms
     - Average UE data rate and energy
-        <img src="https://user-images.githubusercontent.com/73271891/157249513-9f2cd549-9d12-48f3-b5a6-f05c07acc190.png" width="50%">
+        <img src="https://user-images.githubusercontent.com/73271891/157249513-9f2cd549-9d12-48f3-b5a6-f05c07acc190.png" width="40%">
 
     -  Reward weight vector exploration.
-        <img src="https://user-images.githubusercontent.com/73271891/157249065-d3a71fe5-1c01-40be-99f3-d08c5e072faa.png">
+        <img src="https://user-images.githubusercontent.com/73271891/157249065-d3a71fe5-1c01-40be-99f3-d08c5e072faa.png" width="40%">
