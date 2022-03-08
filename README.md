@@ -33,5 +33,9 @@ Paper : https://www.mdpi.com/1424-8220/21/23/7925
 
 ## Simulation 
 
+- Performance comparison of proposed algorithms
+    - Average UE data rate and energy
+        <img src="https://github.com/kyungho-ryu/PDOLS/files/8206578/fig_PDOLS.pdf">
 
-
+    -  Reward weight vector exploration.
+        <img src="https://github.com/kyungho-ryu/PDOLS/files/8206605/test.pdf">
