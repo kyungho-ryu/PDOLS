@@ -68,11 +68,5 @@ pip install -r requirements.txt
 Run training scripts for different algorithms:
 ```bash
 # PPO training
-python train_PPO.py
-
-# DDPG training
-python train_DDPG.py
-
-# PPO with OLS optimization
-python train_PPO_OLS.py
+python train_ppo.py
 ```
