@@ -61,5 +61,18 @@ Leveraging **Deep Reinforcement Learning (DRL)**, specifically the **Proximal Po
 Clone the repository and install dependencies:
 ```bash
 git clone https://github.com/example/HetNetOptimization.git
-cd HetNetOptimization
+cd PDOLS
 pip install -r requirements.txt
+```
+### 2. Training
+Run training scripts for different algorithms:
+```bash
+# PPO training
+python train_PPO.py
+
+# DDPG training
+python train_DDPG.py
+
+# PPO with OLS optimization
+python train_PPO_OLS.py
+```
